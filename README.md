@@ -6,7 +6,17 @@
 ```
 
     pip install -r requirements.txt
-    pip install -e 'git+http://github.com/dustinstansbury/stacked_generalization.git#egg=stacked_generalization'
+    pip install -e 'git+http://github.com/dustinstansbury/stacked_generalization.git#egg=stacked_generalization' (OPTIONAL)
+
+
+```
+
+
+### Instructions to preprocess the data:
+
+```
+
+    python data_cleaning.py
 
 
 ```
@@ -15,16 +25,26 @@
 
 ```
 
-    python train_model.py
+    python train_{model}.py
 
 
 ```
 
-### Instructions to test the model (will use pre-trained model, if present):
+### Instructions to test the model (will use pre-trained model):
 
 ```
 
-    python predict_empathy.py
+    python predict_model.py
+
+
+```
+
+
+### Instructions to run  Jupyter Notebook:
+
+```
+
+    jupyter notebook Predicting Empathy.ipynb
 
 
 ```
